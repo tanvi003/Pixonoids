@@ -1,0 +1,167 @@
+
+  @media (max-width: 740px),( max-height: 400px){
+    .menu {
+      width: 20%;
+      height: 7%;
+      font-size: 12px;
+    }
+    .menu1, .menuSlide1 {
+      top: 30%;
+      left: 3%;
+    }
+    .menu2, .menuSlide2 {
+      top: 40%;
+      left: 3%;
+    }
+    .menu3, .menuSlide3 {
+      top: 50%;
+      left: 3%;
+    }
+    .menu4, .menuSlide4 {
+      top: 60%;
+      left: 3%;
+    }
+    #divPixoIs {
+      width: 90%;
+      left: 10%;
+      font-size: 0.9em;
+    }
+    #divFooter {
+      width: 90%;
+      left: 10%;
+      font-size: 0.7em;
+    }
+    #divLogo {
+      left: 40%;
+      top: 30%;
+       animation:2.5s rotate infinite linear;
+    }
+   @keyframes rotate{
+      0%{transform:rotate(0deg); transform-origin:50% 50%;}
+      100%{transform:rotate(360deg);}
+  
+   }
+	.divBackToggle {
+      display: inline-block;
+    }
+    #divLogo{
+      width: 45%;
+      left: 27.5%;
+      top: 23%;
+    }
+	#divLogoSmall {
+		width: 6%;
+		left: 45%;
+	}
+     .menu{
+       width: 60%;
+     }
+    .menu1, .menuSlide1 {
+      top: 30%;
+      left: -120%;
+    }
+    .menu2, .menuSlide2 {
+      top: 40%;
+      left: -120%;
+    }
+    .menu3, .menuSlide3 {
+      top: 50%;
+      left: -120%;
+    }
+    .menu4, .menuSlide4 {
+      top: 60%;
+      left: -120%;
+    }
+    .menuToggled {
+      left: 20%;
+    }
+    #divPixoIs {
+      width: 100%;
+      left: 0%;
+      bottom: 22%;
+    }
+    #divFooter{
+      width: 100%;
+      left: 0%;
+    }
+    #menuButton {
+      visibility: visible;
+      width: 8%;
+      height: 3%;
+      color: white;
+      position: absolute;
+      z-index: 1000;
+      font-size: 1.5em;
+      left: 2%;
+      top: 2%;
+	  }
+
+    #button1, #button2 {
+      left: 7%;
+    }
+    #slide1, #slide2, #slide3, #slide4 {
+      width: 70%;
+      left: 15%;
+    }
+  }
+
+  @media (min-width: 740px) AND (max-height: 500px) AND (min-height: 400px){
+    #divPixoIs {
+      width: 100%;
+      left: 0%;
+      font-size: 2em;
+    }
+    #divFooter {
+      width: 90%;
+      left: 10%;
+      font-size: 1em;
+    }
+    #divLogo {
+      top: 25%;
+      height: 45%;
+    }
+    #divFooter {
+      width: 100%;
+      left: 0%;
+      font-size: 0.7em;
+    }
+  }
+
+  @media(min-width: 740px) AND (max-height: 400px){
+    #divPixoIs{
+      width: 100%;
+      left: 0%;
+      font-size: 1.5em;
+    }
+    #divLogo {
+      width: 25%;
+      left: 37.5%;
+    }
+	.menu {
+		width: 50%;
+	}
+	.menuToggled {
+      left: 25%;
+    }
+	#divLogoSmall{
+		height: 5%;
+		width: 3%;
+		left: 48.5%;
+	}
+  }
+
+  @media(max-width: 500px) AND (min-height: 500px){
+	#divLogo {
+		left: 20%;
+		width: 60%;
+	}
+  }
+
+  @media (max-width: 950px){
+    .menu {
+      font-size: 11px;
+    }
+    #divPixoIs {
+      font-size: 1.7em;
+    }
+  }
