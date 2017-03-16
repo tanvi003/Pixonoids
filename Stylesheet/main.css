@@ -180,18 +180,16 @@ position: fixed;
     font-weight: 100;
   }
 
-  #divLogo {
-      width: 23.785%;
-            height: 46%;
+  #logoimg {
+      width:27%;
       position: absolute;
       left: 37.5%;
-      top: 22%;
+        top:-700%;
       border: none;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
       transition: all 0.5s;
       z-index: 1000;
-      background-image: url("../Images/logoSmall.gif");
       background-size: 100% 100%;
          animation:2.5s rotate infinite linear;
     }
@@ -211,7 +209,6 @@ position: fixed;
     -moz-transition: top 1s;
     transition: top 1s;
     z-index: 1000;
-    background-image: url("../Images/logoSmall.gif");
     background-size: 100% 100%;
   }
 
