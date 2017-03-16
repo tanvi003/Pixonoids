@@ -284,12 +284,50 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-    width: 916px;
+    width: 80%;
     -webkit-border-radius: 5px; border-radius: 5px; 
 }
-
+@media(max-width: 740px){
+  #my-slider{
+    width:80%;
+    height: 60%;
+    position: absolute;
+top: 15%;
+left: 10%;
+  }
+  #my-slider .ism-slide-0{
+    font-size: 0.6em;
+  }
+    #my-slider .ism-slide-1{
+    font-size: 0.6em;
+  }
+    #my-slider .ism-slide-2{
+    font-size: 0.6em;
+  }
+    #my-slider .ism-slide-3{
+    font-size: 0.6em;
+  }
+    #my-slider .ism-slide-4{
+    font-size: 0.6em;
+  }
+    #my-slider .ism-slide-5{
+    font-size: 0.6em;
+  }
+    #my-slider .ism-slide-6{
+    font-size: 0.6em;
+  }
+    #my-slider .ism-slide-7{
+    font-size: 0.6em;
+  }
+    #my-slider .ism-slide-8{
+    font-size: 0.6em;
+  }
+    #my-slider .ism-slide-9{
+    font-size: 0.6em;
+  }
+}
 #my-slider-ism-badge {
-    width: 916px;
+    width: 100%;
 }
 
 #my-slider:before {
