@@ -285,6 +285,7 @@ p.ism-badge a.ism-link:hover {
 
 #my-slider {
     width: 80%;
+    height: 80%;
     -webkit-border-radius: 5px; border-radius: 5px; 
 }
 @media(max-width: 740px){
