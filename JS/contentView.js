@@ -80,19 +80,20 @@ function funcRevertColor(event){
 
 function photocont(){
   document.getElementById("workheading").innerHTML="Production";
-  document.getElementById("workcontent").innerHTML="Post and Pre Production departments ki information yahan likhni hai";
+  document.getElementById("workcontent").innerHTML="<p>Production engineering is a combination of manufacturing technology, engineering sciences with management science. A production engineer typically has a wide knowledge of engineering practices and is aware of the management challenges related to production. The goal is to accomplish the production process in the smoothest, most-judicious and most-economic way.</p><br/><p>Production engineering encompasses the application of castings, machining processing, joining processes, metal cutting & tool design, metrology, machine tools, machining systems, automation, jigs and fixtures, die and mould design, material science, design of automobile parts, and machine designing and manufacturing. Production engineering also overlaps substantially with manufacturing engineering and industrial engineering. The names are often interchangeable.</p>";
+
 }
 function webcont(){
   document.getElementById("workheading").innerHTML="Web Designing";
-  document.getElementById("workcontent").innerHTML="Web Designing department ki information yahan likhni hai";
+  document.getElementById("workcontent").innerHTML="<p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.<p/><br/><p> The term web design is normally used to describe the design process relating to the front-end (client side) design of a website including writing mark up. Web design partially overlaps web engineering in the broader scope of web development. Web designers are expected to have an awareness of usability and if their role involves creating mark up then they are also expected to be up to date with web accessibility guidelines.</p>";
 }
 function graphcont(){
   document.getElementById("workheading").innerHTML="Graphics";
-  document.getElementById("workcontent").innerHTML="Graphics department ki information yahan likhni hai";
+  document.getElementById("workcontent").innerHTML="<p>Graphic design, also known as communication design, is the art and practice of planning and projecting ideas and experiences with visual and textual content. The form of the communication can be physical or virtual, and may include images, words, or graphic forms. The experience can take place in an instant or over a long period of time. The work can happen at any scale, from the design of a single postage stamp to a national postal signage system, or from a company’s digital avatar to the sprawling and interlinked digital and physical content of an international newspaper. It can also be for any purpose, whether commercial, educational, cultural, or political.<p/><br/><p>Type design carries aspects of almost all of these things. While the form of a single letter has meaning, a typeface, like a brand, is also composed of the relationships between characters that work together to create meaning. And like software, typefaces are licensed and can be installed on individual computers.</p> ";
 }
 function animcont(){
   document.getElementById("workheading").innerHTML="Animation";
-  document.getElementById("workcontent").innerHTML="Animation department ki information yahan likhni hai";
+  document.getElementById("workcontent").innerHTML="<p>Animation is the process of making the illusion of motion and the illusion of change by means of the rapid display of a sequence of images that minimally differ from each other. The illusion—as in motion pictures in general—is thought to rely on the phi phenomenon. Animators are artists who specialize in the creation of animation. Animation can be recorded with either analogue media, a flip book, motion picture film, video tape, digital media, including formats with animated GIF, Flash animation, and digital video.</p><br/><p>Animation creation methods include the traditional animation creation method and those involving stop motion animation of two and three-dimensional objects, paper cutouts, puppets and clay figures. Images are displayed in a rapid succession, usually 24, 25, 30, or 60 frames per second. Computer animation processes generating animated images with the general term computer-generated imagery (CGI).</p>";
 } 
 function displaymyinfo(num){
   document.getElementById("hiddenquotes"+num).style.visibility="visible";

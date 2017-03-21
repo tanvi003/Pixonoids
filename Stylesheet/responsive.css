@@ -31,15 +31,6 @@
       left: 10%;
       font-size: 0.7em;
     }
-  
-
-
-    .sliderbutton0{
-position: relative;
-top: 70%;
-left:75%;
-}
-
     #divLogo {
       left: 40%;
       top: 30%;
@@ -173,27 +164,8 @@ left:75%;
     }
     #divPixoIs {
       font-size: 1.7em;
-    }  .sliderbutton0{
-position: relative;
-top: 65%;
-left:70%;
+    } 
 }
-}
-@media(max-width:500px)AND (max-height: 500px){
-.sliderbutton0{
-position: relative;
-top: 55%;
-left:35%;
-}
-}
-@media(min-width:500px ){
-.sliderbutton0{
-position: relative;
-top: 75%;
-left:65%;
-} 
-}
-
 /*members*/
 @media(max-width: 1000px){
   .heading{
@@ -241,6 +213,27 @@ right: 10%;
  .menu {
     font-size:1em;
   }
+  .sliderbutton0{
+  position:relative;
+  top: 3%;
+  left: 74%;
+  margin-bottom: 5%;
+  font-size: .9em;
+  }
+  #written0,#written1{
+/*background-color: white;*/
+background-color: #FAEBD7;
+width: 70%;
+height: 80%;
+border-radius: 10px;
+position:absolute;
+left:25%;
+top: 13%;
+padding:2%;
+font-size: 1.2em; 
+overflow: auto;
+overflow-x:hidden; 
+}
 }
 @media(max-width: 740px){
   .heading{
@@ -309,6 +302,25 @@ position: absolute;
 top: 10%;
 left: 10%;
 right: 10%;
+}
+ .sliderbutton0{
+  position:relative;
+  top: 3%;
+  left: 70%;
+  margin-bottom: 7%;
+  font-size: .9em;
+  }
+  #written0,#written1{
+/*background-color: white;*/
+background-color: #FAEBD7;
+width: 70%;
+height: 80%;
+border-radius: 10px;
+position:absolute;
+left:28%;
+top: 13%;
+padding:2%;
+font-size: 1em; 
 }
 }
 @media(max-width: 480px){
@@ -385,6 +397,29 @@ position: absolute;
 top: 10%;
 left: 4%;
 right: 4%;
+}
+ .sliderbutton0{
+  position:relative;
+  top: 3%;
+  left: 70%;
+  margin-bottom: 7%;
+  margin-right:5%; 
+  font-size: .75em;
+  }
+  #written0,#written1{
+/*background-color: white;*/
+background-color: #FAEBD7;
+width: 70%;
+height: 80%;
+border-radius: 10px;
+position:absolute;
+left:28%;
+top: 13%;
+padding:2%;
+font-size: .8em; 
+}
+#my-slider{
+  font-size:.7em; 
 }
 }
 @media(max-width: 350px){
@@ -468,6 +503,28 @@ position: absolute;
 top: 10%;
 left: 2%;
 right: 2%;
+}
+ .sliderbutton0{
+  position:relative;
+  top: 3%;
+  left: 70%;
+  margin-bottom: 7%;
+  font-size: .7em;
+  }
+  #written0,#written1{
+/*background-color: white;*/
+background-color: #FAEBD7;
+width: 70%;
+height: 80%;
+border-radius: 10px;
+position:absolute;
+left:28%;
+top: 13%;
+padding:2%;
+font-size: .7em; 
+}
+#my-slider{
+  font-size:.6em; 
 }
 }
 
