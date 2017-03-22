@@ -424,7 +424,7 @@ background-color:#00FF00;
 position: absolute;
 top: 10%;
 left: 10%;
-
+font-size: 1.5em;
 }
 #background img{
     position:absolute;
@@ -563,7 +563,7 @@ margin-left: 20%;
   margin-left: 37%;
 }
 .abcd {
-  height:55%;
+  height:50%;
   width:25%;
   min-height: 220px;
   background-color:#666;

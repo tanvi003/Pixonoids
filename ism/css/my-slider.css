@@ -288,15 +288,6 @@ p.ism-badge a.ism-link:hover {
     height: 80%;
     -webkit-border-radius: 5px; border-radius: 5px; 
 }
-@media(max-width: 740px){
-  #my-slider{
-    width:80%;
-    height: 60%;
-    position: absolute;
-top: 15%;
-left: 10%;
-  }
-
   #my-slider .ism-slide-0{
     font-size: 0.6em;
   }
@@ -610,17 +601,83 @@ left: 10%;
 #my-slider .ism-slide-9 .ism-caption-2.ism-caption-anim {
     -webkit-animation: fadein 0.5s; animation: fadein 0.5s;
 }
+@media(max-width: 1000px){
+ #my-slider{
+  font-size: 1.1em;
+ }
+}
+@media(max-width: 740px){
+ #my-slider{
+  font-size: .9em;
+    width:100%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    margin: auto;
+ }
+}
+@media(max-width: 480px){
+ #my-slider{
+  font-size: .6em;
+     width:100%;
+    height: 40%;
+    position: absolute;
+    top: 27%;
+    left: 0%;
+    margin: auto;
+ }
+  #my-slider .ism-button{
+  width:30px; 
+  height: 30px;
+  top: 55%;
+ }
+  #my-slider .ism-pause-button {
+  width:30px;
+  height: 30px;
+  top:55%;
+ }
+ .ism-pause-button {
+  display: none;
+  left: 52%;
+}
 
+}
+@media(max-width: 350px){
+ #my-slider{
+     font-size: .5em; 
+     width:100%;
+    height: 40%;
+    position: absolute;
+    top: 27%;
+    left: 0%;
+    margin: auto;
+ }
+ #my-slider .ism-button{
+  width:30px; 
+  height:30px;
+  top: 55%;
+ }
+ #my-slider .ism-pause-button {
+  width:30px;
+  height: 30px;
+    top: 55%;
+ }
+.ism-pause-button {
+  display: none;
+  left: 54%;
+}
+
+}
 #my-slider .ism-slide-0 .ism-caption-0 {
     font-size: 1.5em;
     font-family: sans-serif;
-    position: absolute; top: 93%;
-    left: 10%;
+    position: absolute; top: 90%;
+    left: 15%;
     border-radius: 4px;
     border: none;
-    color: #fff; background-color: rgba(0, 0, 0, 0.40);
+    color: #fff; background-color: rgba(0, 0, 0, 0.60);
 }
-
 #my-slider .ism-slide-0 .ism-caption-1 {
     font-size: 1.25em;
     font-family: sans-serif;
@@ -644,8 +701,8 @@ left: 10%;
 #my-slider .ism-slide-1 .ism-caption-0 {
     font-size: 1.5em;
     font-family: sans-serif;
-    position: absolute; top: 92%;
-    left: 33%;
+    position: absolute; top: 90%;
+    left: 37%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.40);
@@ -674,8 +731,8 @@ left: 10%;
 #my-slider .ism-slide-2 .ism-caption-0 {
     font-size: 1.5em;
     font-family: sans-serif;
-    position: absolute; top: 92%;
-    left: 33%;
+    position: absolute; top: 90%;
+    left: 37%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.40);
@@ -704,8 +761,8 @@ left: 10%;
 #my-slider .ism-slide-3 .ism-caption-0 {
     font-size: 1.5em;
     font-family: sans-serif;
-    position: absolute; top: 92%;
-    left: 33%;
+    position: absolute; top: 90%;
+    left: 43%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.40);
@@ -735,7 +792,7 @@ left: 10%;
     font-size: 1.5em;
     font-family: sans-serif;
     position: absolute; top: 90%;
-    left: 41%;
+    left: 43%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.40);
@@ -765,7 +822,7 @@ left: 10%;
     font-size: 1.5em;
     font-family: sans-serif;
     position: absolute; top: 90%;
-    left: 41%;
+    left: 43%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.40);
@@ -795,7 +852,7 @@ left: 10%;
     font-size: 1.5em;
     font-family: sans-serif;
     position: absolute; top: 90%;
-    left: 41%;
+    left: 43%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.40);
@@ -825,7 +882,7 @@ left: 10%;
     font-size: 1.5em;
     font-family: sans-serif;
     position: absolute; top: 90%;
-    left: 41%;
+    left: 43%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.40);
@@ -855,7 +912,7 @@ left: 10%;
     font-size: 1.5em;
     font-family: sans-serif;
     position: absolute; top: 90%;
-    left: 41%;
+    left: 42%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.40);
@@ -885,7 +942,7 @@ left: 10%;
     font-size: 1.5em;
     font-family: sans-serif;
     position: absolute; top: 90%;
-    left: 41%;
+    left: 42%;
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.40);
@@ -910,4 +967,87 @@ left: 10%;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.70);
 }
-
+@media(max-width: 480px){
+   #my-slider .ism-slide-0 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 15%;
+ }
+  #my-slider .ism-slide-1 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 39%;
+ }
+  #my-slider .ism-slide-2 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 39%;
+ }
+  #my-slider .ism-slide-3 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 44%;
+ }
+  #my-slider .ism-slide-4 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 44%;
+ }
+  #my-slider .ism-slide-5 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 44%;
+ }
+  #my-slider .ism-slide-6 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 44%;
+ }
+  #my-slider .ism-slide-7 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 44%;
+ }
+  #my-slider .ism-slide-8 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 43%;
+ }
+  #my-slider .ism-slide-9 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 43%;
+ }
+}
+@media(max-width: 350px){
+   #my-slider .ism-slide-0 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 15%;
+ }
+  #my-slider .ism-slide-1 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 38%;
+ }
+  #my-slider .ism-slide-2 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 38%;
+ }
+  #my-slider .ism-slide-3 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 43%;
+ }
+  #my-slider .ism-slide-4 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 43%;
+ }
+  #my-slider .ism-slide-5 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 43%;
+ }
+  #my-slider .ism-slide-6 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 44%;
+ }
+  #my-slider .ism-slide-7 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 44%;
+ }
+  #my-slider .ism-slide-8 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 43%;
+ }
+  #my-slider .ism-slide-9 .ism-caption-0 {
+      position: absolute; top: 90%;
+    left: 43%;
+ }
+}

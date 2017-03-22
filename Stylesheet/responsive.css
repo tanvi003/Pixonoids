@@ -418,11 +418,20 @@ top: 13%;
 padding:2%;
 font-size: .8em; 
 }
-#my-slider{
-  font-size:.7em; 
-}
 }
 @media(max-width: 350px){
+    #menuButton {
+      visibility: visible;
+      width: 9%;
+      height: 3%;
+      color: white;
+      position: absolute;
+      z-index: 1000;
+      font-size: 1.5em;
+      left: 2%;
+      top: 2%;
+    }
+
   #convi{
     margin: 0px;
     margin-bottom: 13px;
@@ -522,9 +531,6 @@ left:28%;
 top: 13%;
 padding:2%;
 font-size: .7em; 
-}
-#my-slider{
-  font-size:.6em; 
 }
 }
 
